@@ -106,3 +106,8 @@ window.top = 200; // erro, não pode mudar
 const arguments = 3.14; // escrever em palavra reservada
 */
 // Por padrão todo module está no modo estrito
+
+
+// EXERCÍCIO
+// Divida o projeto em diferentes módulos
+// Pastas criadas
