@@ -25,22 +25,22 @@ export default function initModal() {
 
 /* Esse condigo faz o mesmo que o de cima porem em cima está sendo contruido com o toggle
   function abrirModal(event) {
-    event.preventDefault();
-    containerModal.classList.add('ativo');
-  }
-
-  function fecharModal(event) {
-    event.preventDefault();
-    containerModal.classList.remove('ativo');
-  }
-
-  function cliqueForaModal(event) {
-    if(event.target === this) {
-      fecharModal(event);
+      event.preventDefault();
+      containerModal.classList.add('ativo');
     }
-  }
-
-  botaoAbrir.addEventListener('click', abrirModal);
-  botaoFechar.addEventListener('click', fecharModal);
-  containerModal.addEventListener('click', cliqueForaModal);
-  */
+  
+    function fecharModal(event) {
+      event.preventDefault();
+      containerModal.classList.remove('ativo');
+    }
+  
+    function cliqueForaModal(event) {
+      if(event.target === this) {
+        fecharModal(event);
+      }
+    }
+  
+    botaoAbrir.addEventListener('click', abrirModal);
+    botaoFechar.addEventListener('click', fecharModal);
+    containerModal.addEventListener('click', cliqueForaModal);
+*/
