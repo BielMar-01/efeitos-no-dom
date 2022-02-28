@@ -5,6 +5,7 @@ import initTabNav from './modules/tab-nav.js';
 import initModal from './modules/modal.js';
 import initTooltip from './modules/tooltip.js';
 import initDropdownMenu from './modules/dropdown-menu.js';
+import initOutsideClick from './modules/outside-click';
 
 initScrollSuave();
 initAnimacaoScroll();
